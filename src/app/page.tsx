@@ -10,14 +10,8 @@ import {
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { DIFFICULTY } from "./types";
 const moves: AcrobaticMove[] = require("../data/poses.json");
-
-export enum DIFFICULTY {
-  EASY = "easy",
-  INTERMEDIATE = "intermediate",
-  HARD = "hard",
-  REALLY_HARD = "really-hard",
-}
 
 interface AcrobaticMove {
   title: string;

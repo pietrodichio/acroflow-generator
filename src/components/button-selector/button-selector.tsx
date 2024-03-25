@@ -1,7 +1,6 @@
 import { Dispatch, SetStateAction } from "react";
 import { Button } from "../ui/button";
-import { DIFFICULTY } from "@/app/page";
-
+import { DIFFICULTY } from "@/app/types";
 export const ButtonSelector = ({
   children,
   onClick,
